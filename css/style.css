@@ -2,8 +2,40 @@ h1 {
     font-family: Raleway;
     font-weight: 200;
 }
-.in-progress {
+#page-title {
     font-family: Raleway;
     font-weight: 400;
     text-align: center;
+}
+
+* {
+    font-family: Raleway;
+    font-weight: 400;
+}
+
+a:link {
+    font-family: Raleway;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: black;
+}
+
+a:hover {
+    font-family: Raleway;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: black;
+}
+
+#current-page-link {
+    font-family: Raleway;
+    font-weight: 800;
+    color: black;
+    text-transform: capitalize;
+}
+
+a:visited {
+    color: black;
 }
