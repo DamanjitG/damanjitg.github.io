@@ -14,7 +14,11 @@ h1 {
     font-weight: 400;
 }
 
-a:link {
+nav a {
+    font-size: 20px;
+}
+
+nav a:link {
     font-family: Raleway;
     font-weight: 400;
     text-decoration: none;
@@ -22,7 +26,7 @@ a:link {
     color: black;
 }
 
-a:hover {
+nav a:hover {
     font-family: Raleway;
     font-weight: 600;
     text-decoration: none;
@@ -35,8 +39,9 @@ a:hover {
     font-weight: 800;
     color: black;
     text-transform: capitalize;
+    font-size: 20px;
 }
 
 a:visited {
-    color: black;
+    color: black;   
 }
