@@ -3,10 +3,10 @@ h1 {
     font-weight: 200;
 }
 
-#page-title {
-    font-family: Raleway;
-    font-weight: 400;
+#home-page-title {
+    font-weight: 100;
     text-align: center;
+    font-size: 140px;
 }
 
 * {
@@ -14,32 +14,50 @@ h1 {
     font-weight: 400;
 }
 
-nav a {
-    font-size: 20px;
+nav {
+    text-align: center;
 }
 
-nav a:link {
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-style: italic;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+nav ul li a:link {
+    font-family: Raleway;
+    font-weight: 200;
+}
+
+nav ul li a:hover {
     font-family: Raleway;
     font-weight: 400;
     text-decoration: none;
     text-transform: lowercase;
-    color: black;
-}
-
-nav a:hover {
-    font-family: Raleway;
-    font-weight: 600;
-    text-decoration: none;
-    text-transform: lowercase;
-    color: black;
 }
 
 #current-page-link {
-    font-family: Raleway;
-    font-weight: 800;
-    color: black;
-    text-transform: capitalize;
-    font-size: 20px;
+    text-transform: lowercase;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 a:visited {
