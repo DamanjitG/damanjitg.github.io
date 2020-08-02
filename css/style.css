@@ -1,11 +1,7 @@
-html {
-    margin-right: 2em;
-    margin-left: 2em;
-}
-
 h1 {
     font-family: Raleway;
-    font-weight: 200;
+    font-weight: 600;
+    font-size: 4em;
 }
 
 #home-page-title {
@@ -19,11 +15,30 @@ h1 {
     font-weight: 400;
 }
 
+img {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 0.3em;
+}
+
+a, a:visited {
+    color: dimgray; 
+    font-style: italic;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 nav {
     text-align: center;
+    padding-bottom: 2em;
+    padding-top: 1em;
 }
 
 nav ul {
+    margin: 0;
     padding: 0;
     list-style: none;
 }
@@ -32,7 +47,7 @@ nav ul li {
     display: inline;
 }
 
-nav ul li a {
+nav ul li a, nav ul li a:visited {
     font-style: italic;
     font-size: 2em;
     padding-right: 3.125em;
@@ -40,10 +55,6 @@ nav ul li a {
     text-decoration: none;
     text-transform: lowercase;
     color: black;
-}
-
-nav ul li a:link {
-    font-family: Raleway;
     font-weight: 200;
 }
 
@@ -52,6 +63,7 @@ nav ul li a:hover {
     font-weight: 400;
     text-decoration: none;
     text-transform: lowercase;
+    color: black;
 }
 
 #current-page-link {
@@ -63,10 +75,6 @@ nav ul li a:hover {
     padding-left: 3.125em;
 }
 
-a, a:visited {
-    color: black;   
-}
-
 #site-in-progress {
     font-size: 6vmax; 
     font-family: Raleway;
@@ -74,3 +82,22 @@ a, a:visited {
     font-style: italic;
     text-align: center;
 }
+
+div {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.project {
+    text-align: center;
+}
+
+.project h1 {
+    
+}
+
+.project p {
+    font-size: 1.5em;
+}
+
+
