@@ -1,3 +1,7 @@
+html {
+    background-color: #404040;
+}
+
 h1 {
     font-family: Raleway;
     font-weight: 600;
@@ -13,7 +17,7 @@ h1 {
 * {
     font-family: Raleway;
     font-weight: 400;
-    color: #454545;
+    color: white;
 }
 
 img {
@@ -23,7 +27,7 @@ img {
 }
 
 a, a:visited {
-    color: dimgray; 
+    color: silver; 
     font-style: italic;
     text-decoration: none;
 }
@@ -55,7 +59,6 @@ nav ul li a, nav ul li a:visited {
     padding-left: 3.125em;
     text-decoration: none;
     text-transform: lowercase;
-    color: black;
     font-weight: 200;
 }
 
@@ -64,7 +67,6 @@ nav ul li a:hover {
     font-weight: 400;
     text-decoration: none;
     text-transform: lowercase;
-    color: black;
 }
 
 #current-page-link {
@@ -93,12 +95,12 @@ div {
     text-align: center;
 }
 
-.project h1 {
-    
-}
-
 .project p {
     font-size: 1.5em;
+}
+
+hr {
+    background-color: white;
 }
 
 
