@@ -50,32 +50,24 @@ nav ul {
 
 nav ul li {
     display: inline;
-}
-
-nav ul li a, nav ul li a:visited {
-    font-style: italic;
     font-size: 2em;
     padding-right: 3.125em;
     padding-left: 3.125em;
-    text-decoration: none;
     text-transform: lowercase;
+}
+
+nav ul li a {
     font-weight: 200;
 }
 
 nav ul li a:hover {
-    font-family: Raleway;
     font-weight: 400;
     text-decoration: none;
-    text-transform: lowercase;
 }
 
 #current-page-link {
-    text-transform: lowercase;
     font-style: italic;
     font-weight: 600;
-    font-size: 2em;
-    padding-right: 3.125em;
-    padding-left: 3.125em;
 }
 
 #site-in-progress {
@@ -86,13 +78,10 @@ nav ul li a:hover {
     text-align: center;
 }
 
-div {
-    padding-right: 2em;
-    padding-left: 2em;
-}
-
 .project {
     text-align: center;
+    padding-right: 2em;
+    padding-left: 2em;
 }
 
 .project p {
