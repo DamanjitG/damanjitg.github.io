@@ -92,4 +92,16 @@ hr {
     background-color: white;
 }
 
+#contact li {
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 5em;
+    font-size: 2em;
+}
+
+#contact li a, #contact li a:visited {
+    font-style: normal;
+    color: white;
+}
+
 
